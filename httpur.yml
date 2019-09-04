@@ -1,0 +1,23 @@
+type: user_registry
+api_version: 2.0.0
+id: 0dfe3d82-b8f9-4d08-9011-eb2274033d6a
+name: httpuser
+title: Httpuser
+integration_url: >-
+ https://localhost:2000/api/cloud/integrations/user-registry/dc1a5711-1d74-4e9c-b044-182a03406bba
+registry_type: authurl
+user_managed: false
+user_registry_managed: false
+case_sensitive: false
+identity_providers:
+  - name: httpuser
+    title: Httpuser
+visibility:
+  type: public
+endpoint:
+  endpoint: 'https://httpbin.org/basic-auth/shavon/7iron-hide'
+metadata:
+  message: Success
+org_url: >-
+  https://localhost:2000/api/orgs/f697ed56-ba35-4e31-b92f-6c98170d4601
+
