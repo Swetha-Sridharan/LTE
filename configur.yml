@@ -1,0 +1,26 @@
+type:  configured_api_user_registry 
+api_version:  2.0.0 
+id:  41df812b-16f9-495a-a878-6ac62b28e453 
+name:  authurl 
+title:  Authurl
+scope:  catalog 
+integration_url:  
+ https://localhost:2000/api/cloud/integrations/user-registry/fa93b2f6-dbd7-4d3a-be73-5a7325db2f12
+registry_type:  authurl
+user_managed: false
+user_registry_managed: false  
+case_sensitive: false  
+identity_providers: 
+  - name: authurl
+    title: Authurl 
+endpoint: 
+  endpoint:  'https://httpbin.org/basic-auth/user/pass'
+owned: true  
+metadata: 
+  message:  Success 
+org_url: >- 
+  https://localhost:2000/api/orgs/770e51f4-45cf-44cf-b17b-64ee539e9cff   
+catalog_url: >- 
+  https://localhost:2000/api/catalogs/770e51f4-45cf-44cf-b17b-64ee539e9cff/a8f9ccf9-4693-433a-b7dd-2101d047bbd2   
+user_registry_url: >- 
+   https://localhost:2000/api/user-registries/27bc86d6-5699-430d-a61d-28579da2f6dc/cae4259e-3026-4f54-b9b2-48272474886f
