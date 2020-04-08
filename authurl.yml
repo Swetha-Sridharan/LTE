@@ -1,0 +1,23 @@
+type: user_registry
+api_version: 2.0.0
+id: 0dfe3d82-b8f9-4d08-9011-eb2274033d6a
+name: authurl
+title: AuthURL
+integration_url: >-
+ https://localhost:2000/api/cloud/integrations/user-registry/fa93b2f6-dbd7-4d3a-be73-5a7325db2f12
+registry_type: authurl
+user_managed: false
+user_registry_managed: false
+case_sensitive: false
+identity_providers:
+  - name: authurl
+    title: AuthURL
+visibility:
+  type: public
+endpoint:
+  endpoint: 'https://httpbin.org/basic-auth/user/pass'
+metadata:
+  message: Success
+org_url: >-
+  https://localhost:2000/api/orgs/770e51f4-45cf-44cf-b17b-64ee539e9cff
+
